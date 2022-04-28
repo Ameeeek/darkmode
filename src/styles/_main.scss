@@ -1,0 +1,29 @@
+body{
+    margin:0;
+    padding:0;
+}
+
+.light{
+    .text{
+        color: #212121;
+    }
+    .background{
+        background-color:#fff;
+    }
+}
+.dark{
+    .text{
+        color:#fff;
+    }
+    .background{
+        background-color:#212121;
+    }
+}
+
+.flex{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+
+}
